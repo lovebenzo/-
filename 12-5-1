@@ -1,0 +1,12 @@
+//通过<<实现2的n次方
+int main()
+{
+	int n;
+	while (scanf("%d",& n) != EOF)
+	{
+		int m = 1 <<n;
+		printf("%d\n", m);
+	}
+
+	return 0;
+}
